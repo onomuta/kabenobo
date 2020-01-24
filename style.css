@@ -1,0 +1,35 @@
+  * {
+      margin: 0
+    }
+
+    #defaultCanvas0 {
+      display: inline-block;
+      /*       width: 100vw !important; */
+      /*       height: 75vw !important; */
+      position: fixed;
+      left: 0;
+      top: 0;
+    }
+
+
+    video {
+      display: inline-block;
+      /*       width: 100vw; */
+      /*       height: 75vw !important; */
+      position: fixed;
+      left: 0;
+      top: 0;
+      z-index: -1;
+    }
+
+    body {
+      background: #eee;
+      width: 100%;
+    }
+
+    .button {
+      padding: 8px;
+      border:none;
+      border-radius: 4px;
+
+    }
